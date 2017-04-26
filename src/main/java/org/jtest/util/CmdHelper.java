@@ -21,9 +21,9 @@ public class CmdHelper {
         return p;
     }
      
-    public static Process CMD(String cmd,String ...args){
-        return CMD(String.format(cmd, args));
-    }
+//    public static Process CMD(String cmd,String ...args){
+//        return CMD(String.format(cmd, args));
+//    }
      
     public static Process runCMD(String cmd){
         Process p = null;
@@ -41,9 +41,9 @@ public class CmdHelper {
         return p;
     }
      
-    public static Process runCMD(String cmd,String ...args){
-        return runCMD(String.format(cmd, args));
-    }
+//    public static Process runCMD(String cmd,String ...args){
+//        return runCMD(String.format(cmd, args));
+//    }
      
     static class cmdResult implements Runnable{
         private InputStream ins;
